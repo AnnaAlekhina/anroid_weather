@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Weather_5days</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name2">SimpleCursorAdapter</string>
+    <string name="add_record">Добавить запись</string>
+    <string name="delete_record">Удалить запись</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="set_city">Введите город</string>
+    <string name="title_activity_new">NewActivity</string>
+    <string name="title_activity_new2">NewActivity2</string>
+    <string name="Rain">Rain</string>
+    <string name="Clouds">Clouds</string>
+    <string name="brocken_clouds">brocken clouds</string>
+    <string name="light_rain">light rain</string>
+    <string name="sky_is_clear">sky is clear</string>
+    <string name="Clear">Clear</string>
+    <string name="snow">snow</string>
+    <string name="light_snow">light snow</string>
+    <string name="overcast_clouds">overcast clouds</string>
+    <string name="moderate_rain">moderate rain</string>
+    <string name="scattered_clouds">scattered clouds</string>
+    <string name="few_clouds">few clouds</string>
+</resources>

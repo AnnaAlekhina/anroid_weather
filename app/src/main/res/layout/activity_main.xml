@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.anna.weather_5days.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/gradient1">
+
+    <EditText
+        android:id="@+id/EditCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите город..."
+        android:layout_gravity="left|center_vertical"/>
+
+    <Button
+        android:id="@+id/loadCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить"
+        android:background="@drawable/gradient2" />
+
+    <Button
+        android:id="@+id/delCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Очистить"
+        android:background="@drawable/gradient2" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/radio_now"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:onClick="onClickRadio"
+                        android:text="Погода на сейчас" />
+
+                    <RadioButton
+                        android:id="@+id/radio_5days"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Погода на 5 дней"
+                        android:onClick="onClickRadio"
+                        android:checked="false" />
+
+                </RadioGroup>
+
+    <ListView
+        android:id="@+id/lvData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+
